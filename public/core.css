@@ -1,0 +1,77 @@
+a:hover {
+    opacity: 50%;
+    color:azure;
+  }
+
+#nav_name{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+#nav_menu, #submenu {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#int_search {
+  width: 225px;
+  height: 10%;
+  border-radius: 5px;
+  align-items: end;
+  box-shadow: 0px  2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#pro_a_lgn {
+  color:white;
+  size: 10px;
+}
+
+#floatingInput, #floatingPassword {
+  width: 370px;
+  height: 10%;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+.btn button {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn i img{
+  margin-bottom: 3px;
+}
+
+.card {
+  box-shadow: 0px  2px 5px rgb(44, 7, 7);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: translateY(-15px)
+}
+
+#btn_update {
+  background-color: #930000fa;
+  margin-bottom: 20px;
+  box-shadow: 0px  2px 5px black;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+#btn_regis {
+  background-color: #930000fa;
+  cursor: pointer;
+}
+
+#btn_gray {
+  background-color: rgb(33, 33, 33);
+}
